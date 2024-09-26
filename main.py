@@ -1,10 +1,5 @@
 num = input("Введите число, состоящие из 8 разрядов: ")
 
-if len(num) != 8:
+sum = int(num[0])+int(num[1])+int(num[2])+int(num[3])+int(num[4])+int(num[5])+int(num[6])+int(num[7])
 
-    print("Введите корректное число, состоязие из 8 разрядов!")
-
-else: 
-
-    sum_numbers_in_num = sum(int(i) for i in num)
-    print(f"Сумма всех цифр числа: {sum_numbers_in_num}")
+print(sum)
